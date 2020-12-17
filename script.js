@@ -27,7 +27,6 @@ function changeRandom() {
 }
 
 function handleClick() {
-    hex = Math.floor(100000 + Math.random() * 900000);
     counter = counter + 1;
     if(clicked == false){
         if(i == colour.length-1) {
@@ -41,10 +40,11 @@ function handleClick() {
         document.querySelector('.button1').style.backgroundColor = colour[i];
     }
     else{
+        hex = Math.floor(100000 + Math.random() * 900000);
+        console.log("#"+hex);
         document.querySelector('.button1').innerHTML = "You have changed my colour "+counter+" times!"+"<br><br>"+"My colour is currently: "+"<br>"+"#"+hex;
         document.querySelector('.button1').style.backgroundColor = "#"+hex;
     }
-    console.log("#"+hex);
     console.log(counter);
 } 
 
