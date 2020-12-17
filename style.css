@@ -9,11 +9,15 @@ body{
     align-items: center;
 }
 
+button{
+    border-radius: 25em;
+}
+
 .button1{
     display: block;
     color: black;
     width: 300px;
-    height: 100px;
+    height: 300px;
 }
 
 .button1:hover{
