@@ -35,3 +35,19 @@ button{
     box-shadow: 1px 1px 2px white;
     text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em grey;
 }
+.button3{
+    display: block;
+    color: black;
+    width: 100px;
+    height: 50px;
+}
+
+.button3:hover{
+    box-shadow: 1px 1px 2px white;
+    text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em grey;
+}
+
+.buttonclickactive{
+    color:#FFFFFF;
+    background-color: #000000;
+}
